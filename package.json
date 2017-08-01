@@ -1,0 +1,42 @@
+{
+  "name": "touchbar-git",
+  "main": "./lib/index",
+  "version": "0.0.0",
+  "description": "Display Git information on the Touch Bar",
+  "keywords": [],
+  "repository": "https://github.com/haklop/touchbar-git.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.19.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.2.2",
+    "eslint-config-xo-space": "^0.15.0"
+  },
+  "consumedServices": {
+    "touchbar-registry": {
+      "versions": {
+        "0.1.0": "consumeTouchBar"
+      }
+    }
+  },
+  "package-deps": [
+    "touchbar-registry"
+  ],
+  "eslintConfig": {
+    "extends": "xo-space/esnext",
+    "env": {
+      "mocha": true
+    },
+    "rules": {
+      "no-console": "error",
+      "camelcase": "warn"
+    },
+    "globals": {
+      "atom": true
+    }
+  }
+}
