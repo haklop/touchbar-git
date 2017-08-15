@@ -19,7 +19,7 @@
   "consumedServices": {
     "touchbar-registry": {
       "versions": {
-        "0.1.0": "consumeTouchBar"
+        "0.2.0": "consumeTouchBar"
       }
     }
   },
