@@ -2,6 +2,8 @@
 
 Display Git information on the Touch Bar.
 
+![Preview](https://thumbs.gfycat.com/MistyDistantInsect-size_restricted.gif)
+
 ### Installation
 
 **Atom 1.19+ required.**
